@@ -18,8 +18,7 @@ import butterknife.ButterKnife;
 public class Score extends AppCompatActivity {
     @BindView(R.id.invalidListView) ListView mInvalidListView;
     @BindView(R.id.scoringListView) ListView mScoringListView;
-    @BindView(R.id.homeButton)
-    Button mHomeButton;
+    @BindView(R.id.homeButton) Button mHomeButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
